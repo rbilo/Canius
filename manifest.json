@@ -6,13 +6,13 @@
     "description": "Removes the news articles from the firefox homepage",
   
     "icons": {
-      "48": "icons/border-48.png"
+      "icon": "icons/icon.png"
     },
   
     "content_scripts": [
       {
         "matches": ["*://*.mozilla.org/*"],
-        "js": ["borderify.js"]
+        "js": ["canius.js"]
       }
     ]
   }
