@@ -6,7 +6,7 @@
     "description": "Removes the news articles from the firefox homepage",
   
     "icons": {
-      "icon": "icons/icon.png"
+        "128": "../canius/icons/icon.png"
     },
   
     "content_scripts": [
