@@ -1,19 +1,27 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 2, 
     "name": "Canius",
     "version": "1.0",
-  
-    "description": "Removes the news articles from the firefox homepage",
-  
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "<all_urls>"
+    ],
+    "description": "Removes the news articles from the Firefox homepage",
     "icons": {
+        "48": "../canius/icons/icon48.png",
+        "96": "../canius/icons/icon96.png",
         "128": "../canius/icons/icon.png"
     },
-  
     "content_scripts": [
-      {
-        "matches": ["*://*.mozilla.org/*"],
-        "js": ["canius.js"]
-      }
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                
+                "canius.js"
+            ]
+        }
     ]
-  }
-  
+}
