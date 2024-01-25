@@ -1,0 +1,58 @@
+h1 {
+    font-family: sans-serif;
+    padding: 0;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    padding: 0;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.textrow {
+    max-width: 250px;
+    min-width: 250px;
+    margin-left: 10px;
+}
+
+.bottomText {
+    font-size: 5px;
+    color: gray;
+}
+
+.buttons {
+    margin-top: 13px;
+    margin-bottom: 15px;
+    max-width: 400px;
+}
+
+.frame {
+    max-width: 270px;
+    min-width: 270px;
+}
+
+.buttonStyle {
+    max-width: 216px;
+    min-width: 216px;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.buttonDiv {
+    width:270px;
+    margin-top: 10px;
+}
+
+.textrow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',  */
