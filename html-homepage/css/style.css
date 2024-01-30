@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #2b2a33;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.topbar {
+    min-height:3vh;
+    min-width: 100vw;
+}
+
+.maincanvas {
+    min-height: 97vh;
+    min-width: 100vw;
+}
+
+.box1 {
+    min-width: 100vw;
+}
+
+.searchBox {
+    padding-top: 10vh;
+    width: 50%;
+    margin: auto;
+    
+    /* border is for testing purposes only
+    border: 10px solid red; */
+}
+
+.searchBar {
+    width: 45%;
+    margin-left: 25%;
+}
+
+
+.searchButton {
+    width: 5%;
+}
