@@ -25,7 +25,6 @@ body {
 
 .searchBox {
     padding-top: 10vh;
-    width: 50%;
     margin: auto;
 
     /* border is for testing purposes only
@@ -33,15 +32,18 @@ body {
 }
 
 .searchBar {
-    width: 45%;
-    margin-left: 25%;
+    display: inline-block;
+    padding: 0;
+    width: 30vw;
+    min-width: 10vh;
+    margin-left: 30vw;
     height: 2vh;
 }
 
 
 .searchButton {
-    margin-top: -1.9vh;
-    margin-left: 73%;
+    display: inline-block;
+    margin-left: 1vw;
     width: 3vh;
 }
 
