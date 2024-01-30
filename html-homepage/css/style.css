@@ -35,26 +35,14 @@ body {
 .searchBar {
     width: 45%;
     margin-left: 25%;
+    height: 2vh;
 }
 
 
 .searchButton {
-    margin-top: -1.6vh;
-    margin-left: 71.2%;
+    margin-top: -1.9vh;
+    margin-left: 73%;
     width: 3vh;
-}
-
-.searchIcon {
-    fill: blue;
-    /* Set the initial color */
-}
-
-.outerDot {
-    height: 1vh;
-    width: 1vh;
-    background-color: rgb(214, 214, 214);
-    border-radius: 50%;
-    display: inline-block;
 }
 
 .innerDot {
@@ -63,15 +51,16 @@ body {
     margin-left: -1.16vh;
     margin-bottom: 0.13vh;
     background-color: #2b2a33;
+    border: 0.3vh solid rgb(214, 214, 214);
     border-radius: 50%;
     display: inline-block;
 }
 
 .rectangle {
-    height: 0.2vh;
-    width: 0.5vh;
+    height: 0.24vh;
+    width: 0.7vh;
     transform: rotate(45deg);
-    margin-left: -0.46vh;
+    margin-left: -0.65vh;
     margin-bottom: -0.04vh;
     background-color: rgb(214, 214, 214);
     display: inline-block;
